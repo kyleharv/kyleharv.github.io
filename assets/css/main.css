@@ -245,7 +245,8 @@ html {
 
 /* Copy & Lists */
 p {
-  line-height: 1.5rem;
+  font-size: 150%;
+  line-height: 2.5rem;
   letter-spacing: .01rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
@@ -548,15 +549,15 @@ body {
 
 .textLogo--frontpage {
   position: absolute;
-  top: 132px;
-  left: 50%;
+  top: 10px;
+  left: 30%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 500;
   margin: 0;
-  width: 276px;
-  height: 50px;
+  width: 20rem;
+  height: 15rem;
   background-size: 100%;
   background-position: 0;
   opacity: 0.9;
@@ -565,9 +566,11 @@ body {
 
 @media (max-width: 767px) {
   .textLogo--frontpage {
+    left: 50%;
+    position: relative;
     width: 182px;
-    height: 33px;
-    top: 99px;
+    height: 132px;
+    top: 10px;
   }
 }
 
@@ -1789,8 +1792,9 @@ body {
 .postMeta-wrapper--frontpage {
   position: absolute;
   display: inherit;
-  top: 165px;
-  left: 50%;
+  top: 1rem;
+  left: 75%;
+  width: 40%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1798,22 +1802,29 @@ body {
 }
 
 .postMeta-wrapper--frontpage .postMeta-tagline {
-  font-weight: 300;
+  font-size: 137.5%;
+  /* font-weight: 300; */
   letter-spacing: 0.04rem;
-  color: #777777;
+  margin-top: 1rem;
+  color: #333;
   text-transform: none;
 }
 
 @media (max-width: 767px) {
   .postMeta-wrapper--frontpage .postMeta-tagline {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    position: relative;
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
   .postMeta-wrapper--frontpage {
-    width: 300px;
-    top: 100px;
+    left: 50%;
+    margin-top: 0;
+    width: 80%;
+    position: relative;
   }
 }
 
@@ -1896,7 +1907,7 @@ body {
 .blockGroup-list {
   list-style: none;
   padding: 0;
-  margin-top: -4.5rem;
+  margin-top: -1.5rem;
   margin-left: -10px;
   margin-right: -10px;
   display: -webkit-box;
