@@ -499,6 +499,11 @@ body {
   }
 }
 
+.main-logo {
+  text-align: center;
+  width: 90vw;
+}
+
 .brandLogo {
   background-image: url(../images/logo-white.svg);
   background-size: contain;
@@ -1803,9 +1808,9 @@ body {
 
 .postMeta-wrapper--frontpage .postMeta-tagline {
   font-size: 137.5%;
-  font-weight: 500;
   letter-spacing: 0.04rem;
-  margin-top: 1rem;
+  line-height: 1.5em;
+  margin-top: 0.5rem;
   color: #333;
   text-transform: none;
 }
@@ -2002,7 +2007,7 @@ body {
   position: relative;
   background: #fff;
   width: 100%;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
