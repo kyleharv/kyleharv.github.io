@@ -1639,10 +1639,10 @@ body {
   color: #222;
 }
 
-.section--first,
+/* .section--first,
 .section-backgroundImage {
   height: 28.5rem;
-}
+} */
 
 @media (max-width: 767px) {
   .section--first,
