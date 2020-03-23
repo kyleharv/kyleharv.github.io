@@ -1651,7 +1651,7 @@ body {
   }
 }
 
-.section--frontpage,
+/* .section--frontpage,
 .section--frontpage ~ .post-featuredImage {
   height: 18rem;
 }
@@ -1661,7 +1661,7 @@ body {
   .section--frontpage ~ .post-featuredImage {
     height: 15rem;
   }
-}
+} */
 
 .section--about,
 .section-backgroundImage,
@@ -1803,7 +1803,7 @@ body {
 
 .postMeta-wrapper--frontpage .postMeta-tagline {
   font-size: 137.5%;
-  /* font-weight: 300; */
+  font-weight: 500;
   letter-spacing: 0.04rem;
   margin-top: 1rem;
   color: #333;
