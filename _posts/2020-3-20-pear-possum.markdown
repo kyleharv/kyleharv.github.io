@@ -1,17 +1,29 @@
 ---
 layout: post
-title:  Pear Possum
+title:  "Pear Possum"
 date:   2020-3-20 09:15:00
 last_modified_at:  2020-3-20 09:15:00
-excerpt: "I'm Pear Possum, and my best friend in the whole world is Peanut Butter Panda!..."
+excerpt: "In Pookaberry Zoo On the rocky coast of Maine..."
 categories: friends
 tags:  Peanut Butter Panda
 image:
   feature: possum.jpg
-  topPosition: -375px
+  topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-I'm Pear Possum, and my best friend in the whole world is Peanut Butter Panda! We have so much fun exploring together. We love living in Pookleberry Zoo!
+In Pookaberry Zoo<br>
+On the rocky coast of Maine,<br>
+A little baby possum<br>
+Was born on Possum Lane.<br>
+They’re called Virginia possums<br>
+In Canada and US.<br>
+His name was Pear<br>
+From Asian pears<br>
+His Mama loved the best.<br>
+Pear Possum loves his family<br>
+And loves adventure too.<br>
+He loves always exploring<br>
+In Pookaberry Zoo.<br>

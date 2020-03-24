@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Pookaberry Zoo"
+date:   2020-3-24 01:00:00
+last_modified_at:  2020-3-24 01:00:00
+excerpt: "Peanut Butter Panda plays in Pookaberry Zoo..."
+categories: places
+tags:  Peanut Butter Panda
+image:
+  feature: pookaberry-zoo.jpg
+  topPosition: -190px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+
+Peanut Butter Panda plays in Pookaberry Zoo.<br>
+And on the pebbly coast of Maine<br>
+Pear Possum plays there too.<br>
+Pitter patter paw prints<br>
+Decorate the sand.<br>
+The plucky pair of best friends<br>
+Dance across the land.<br>
+In search of great adventure,<br>
+Their travels take them far.<br>
+Pear and Peanut Butter<br>
+Catch the nearest star.<br>
+Past purple mountains,<br>
+Deep blue seas,<br>
+Through northern lights<br>
+They ride with ease.<br>
+Walking, riding, dancing, flying<br>
+On rocks and sandy shore,<br>
+The possum and the panda<br>
+Make friends forever more.<br>

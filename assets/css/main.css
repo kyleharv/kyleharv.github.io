@@ -1,6 +1,6 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -49,6 +49,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #777;
 }
 
 abbr[title] {
@@ -231,7 +232,7 @@ th {
 /* Setup */
 html {
   /* Change default typefaces here */
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Crimson Text', serif;
   font-size: 137.5%;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.8);
@@ -338,7 +339,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.666rem;
   line-height: 3rem;
   margin-top: 3rem;
@@ -369,15 +370,15 @@ h6 {
 a {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(75%, rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.8) 75%);
+  /* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(75%, rgba(0, 0, 0, 0.8))); */
+  /* background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.8) 75%); */
   background-repeat: repeat-x;
   background-position: 0 22px;
   background-size: 2px 2px;
 }
 
 a:hover {
-  color: rgba(0, 0, 0, 0.8);
+  color: #f77;
 }
 
 /* Tables */
@@ -523,7 +524,7 @@ body {
 }
 
 .textLogo {
-  /* display: block; */
+  display: block;
   background-image: url(../images/logo-text-black.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -1352,7 +1353,7 @@ body {
   width: 14rem;
   visibility: hidden;
   padding: 30px 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   background-color: #222222;
   z-index: 900;
@@ -1636,9 +1637,13 @@ body {
   padding: 10px 15px;
 }
 
+.postWrapper .section--first {
+  height: 28.5rem;
+}
+
 .section--first {
   color: #222;
-  height: 28.5rem;
+  /* height: 28.5rem; */
   position: relative;
   top: 0;
   width: 100%;
@@ -1646,25 +1651,32 @@ body {
 
 .section--first,
 .section-backgroundImage {
-  height: 28.5rem;
+  /* height: 28.5rem; */
 }
 
 @media (max-width: 767px) {
   .section--first,
   .section-backgroundImage {
-    height: 21rem;
+    /* height: 21rem; */
   }
 }
 
 .section--frontpage,
 .section--frontpage ~ .post-featuredImage {
-  height: 18rem;
+  /* height: 18rem; */
+}
+
+.section--frontpage h2 {
+  margin: 0 auto 3rem;
+  text-align: center;
+  width: 70%;
+  color: #333;
 }
 
 @media (max-width: 767px) {
   .section--frontpage,
   .section--frontpage ~ .post-featuredImage {
-    height: 15rem;
+    /* height: 15rem; */
   }
 }
 
@@ -1791,7 +1803,7 @@ body {
 
 .postMeta-wrapper {
   /* margin-top: 1.5rem; */
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .postMeta-wrapper--frontpage {
@@ -1843,7 +1855,7 @@ body {
   float: left;
   margin: 0;
   padding: 0 0 0 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -1937,7 +1949,7 @@ body {
   display: block;
   width: 25%;
   margin-bottom: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -1958,12 +1970,18 @@ body {
   }
 }
 
+.blockGroup-list .block .postArticle-image {
+  background-position: top;
+}
+
 .blockGroup-list li:nth-child(1).block {
   width: 100%;
 }
 
 .blockGroup-list li:nth-child(1).block .postArticle-image {
-  padding-top: 30%;
+  padding-top: 40%;
+  /* background-position: top; */
+
 }
 
 @media (max-width: 767px) {
@@ -1973,7 +1991,7 @@ body {
 }
 
 .blockGroup-list li:nth-child(1).block .postArticle-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .blockGroup-list li:nth-child(2).block,
@@ -1988,7 +2006,7 @@ body {
 
 .blockGroup-list li:nth-child(2).block .postArticle-title,
 .blockGroup-list li:nth-child(3).block .postArticle-title {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 767px) {
@@ -2007,7 +2025,7 @@ body {
   position: relative;
   background: #fff;
   width: 100%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -2103,6 +2121,7 @@ body {
 }
 
 .section--subscribe h3 {
+  font-size: 2.5rem;
   margin-top: 1.5rem;
 }
 
@@ -2116,7 +2135,7 @@ body {
   padding: 0 0 2rem;
   position: relative;
   z-index: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 0.5rem;
   text-align: center;
 }
@@ -2546,7 +2565,7 @@ body {
           appearance: none;
   -webkit-tap-highlight-color: transparent;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 300;
 }
 
@@ -2568,7 +2587,7 @@ body {
   outline: none;
   background: transparent;
   border-radius: 99px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: .02em;
   padding: 10px 40px 9px 40px;
   margin-top: 1.5rem;
