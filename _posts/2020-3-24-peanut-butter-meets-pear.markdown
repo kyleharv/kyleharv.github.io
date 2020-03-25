@@ -8,7 +8,7 @@ categories: stories
 tags:  Peanut Butter Panda
 image:
   feature: peanut-butter-meets-pear.jpg
-  topPosition: -1100px
+  topPosition: 0
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no

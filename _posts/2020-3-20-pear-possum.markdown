@@ -8,7 +8,7 @@ categories: friends
 tags:  Peanut Butter Panda
 image:
   feature: possum.jpg
-  topPosition: -100px
+  topPosition: 0
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no

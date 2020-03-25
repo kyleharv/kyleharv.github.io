@@ -8,7 +8,7 @@ categories: places
 tags:  Peanut Butter Panda
 image:
   feature: pookaberry-zoo.jpg
-  topPosition: -190px
+  topPosition: 0
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no

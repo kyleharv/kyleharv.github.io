@@ -8,7 +8,7 @@ categories: friends
 tags:  Peanut Butter Panda
 image:
   feature: panda.jpg
-  topPosition: -117px
+  topPosition: 0
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
