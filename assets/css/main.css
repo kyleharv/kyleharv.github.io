@@ -1984,6 +1984,13 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .postArticle-image {
+    height: 20rem;
+  }
+}
+
+
 .blockGroup-list .block .postArticle-image {
   background-position: top;
 }
