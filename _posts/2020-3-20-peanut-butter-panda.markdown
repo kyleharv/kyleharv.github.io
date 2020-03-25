@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Peanut Butter Panda"
-date:   2020-3-20 09:27:00
-last_modified_at:  2020-3-20 09:27:00
+date:   2020-3-25 14:30:00
+last_modified_at:  2020-3-25 14:30:00
 excerpt: "Once upon a time Way up north in Maine..."
 categories: friends
 tags:  Peanut Butter Panda
