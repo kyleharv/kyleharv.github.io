@@ -526,6 +526,13 @@ body {
   margin: 1rem auto 1rem;
 }
 
+@media (max-width: 767px) {
+  .panda-logo {
+    width: 75vw;
+  }
+}
+
+
 .main-title  h1 {
   background-color: #fcc;
   color: #af2f00;
