@@ -520,8 +520,10 @@ body {
   }
 }
 
-.main-logo img {
-  width: 100%;
+.panda-logo {
+  display: block;
+  width: 25vw;
+  margin: 1rem auto 1rem;
 }
 
 .main-title  h1 {
