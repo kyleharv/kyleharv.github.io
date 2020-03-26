@@ -2155,7 +2155,6 @@ body {
 }
 
 .section--subscribe {
-  /* color: #ff7f50; */
   width: 100%;
   background: #fff0f0;
   padding: 1.5rem 0 0;
@@ -2164,16 +2163,16 @@ body {
 }
 
 .subscribe-paragraph {
-  color: #ff7f50;
+  color: #cf4f20;
 }
 
 .subscribe-paragraph a {
-  color: #cf4f20;
+  color: #ff7f50;
 }
 
 .subscribe-paragraph a:active,
 .subscribe-paragraph a:hover {
-  color: #ff7f50;
+  color: #cf4f20;
 }
 
 
