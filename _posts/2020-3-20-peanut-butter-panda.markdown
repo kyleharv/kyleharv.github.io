@@ -22,8 +22,8 @@ His name came from the yummy treat<br>
 His mom and dad loved so.<br>
 Peanut Butter was the name<br>
 Their son would learn to know.<br>
-Peanut Butter was allergic<br>
-To peanuts and could not eat<br>
+Peanut Butter is allergic<br>
+To peanuts and can not eat<br>
 The snack that he was named for:<br>
 His parents’ favorite treat.<br>
 Peanut Butter Panda lives<br>

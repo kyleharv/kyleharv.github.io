@@ -250,6 +250,15 @@ p {
   letter-spacing: .01rem;
   margin-top: 1.5rem;
   margin-bottom: 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  p {
+    line-height: 2rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
 }
 
 p.u--startsWithDoubleQuote {
@@ -282,14 +291,6 @@ blockquote {
   padding-left: 25px;
   margin-left: -29px;
   border-left: 4px solid #222;
-}
-
-@media (max-width: 767px) {
-  .content-body p {
-    text-align: center;
-    line-height: 2rem;
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 767px) {
@@ -349,6 +350,13 @@ h2 {
   line-height: 3rem;
   margin-top: 3rem;
   font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 h3 {
@@ -412,6 +420,13 @@ hr {
   border-right: 0;
   margin: 1.5rem 0;
 }
+
+@media (max-width: 767px) {
+  hr {
+    margin: 0.5em;
+  }
+}
+
 
 /* Leading paragraph text */
 .lead {
@@ -516,6 +531,13 @@ body {
   margin: 1rem auto 0.7rem;
   padding: 0.5rem 0 0.5rem;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .main-title  h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
 }
 
 .brandLogo {
@@ -2043,8 +2065,7 @@ body {
 }
 
 .blockGroup-list li .postArticle-title {
-  font-size: 0.75rem;
-  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .blockGroup-list .postArticle-wrapper {
@@ -2168,9 +2189,12 @@ body {
   text-align: center;
 }
 
-.section--footer p {
-  line-height: 1.5rem;
-  margin: 0 0 1rem;
+@media (max-width: 767px) {
+  .section--footer p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin: 0 0 0.5rem;
+  }
 }
 
 .section--footer a {
@@ -2300,7 +2324,8 @@ color: #cf4f20;
 
 .about-content-body h4 {
   color: #8f0f00;
-  margin-bottom: 1em;
+  font-size: 2rem;
+  margin: 1em 0 1em;
   text-align: center;
 }
 
