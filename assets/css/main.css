@@ -2165,8 +2165,17 @@ body {
 
 .subscribe-paragraph {
   color: #ff7f50;
-
 }
+
+.subscribe-paragraph a {
+  color: #cf4f20;
+}
+
+.subscribe-paragraph a:active,
+.subscribe-paragraph a:hover {
+  color: #ff7f50;
+}
+
 
 .section--subscribe h3 {
   color: #ff7f50;
@@ -2189,12 +2198,18 @@ body {
   text-align: center;
 }
 
-@media (max-width: 767px) {
+.section--footer p {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+/* @media (max-width: 767px) {
   .section--footer p {
     font-size: 0.7rem;
     line-height: 1rem;
     margin: 0 0 0.5rem;
-  }
+  } */
 }
 
 .section--footer a {
